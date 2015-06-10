@@ -24,10 +24,13 @@
     <ClInclude Include="structures.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GenAPI.h">
+    <ClInclude Include="CBrain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CBrain.h">
+    <ClInclude Include="CGenAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GrabScreenshot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -41,10 +44,13 @@
     <ClCompile Include="structures.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GenAPI.cpp">
+    <ClCompile Include="CBrain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CBrain.cpp">
+    <ClCompile Include="CGenAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GrabScreenshot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

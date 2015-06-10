@@ -1,0 +1,70 @@
+﻿Build started 6/9/2015 10:07:10 AM.
+     1>Project "E:\Documents\GitHub\ButtonAndScreenWatch\NeuralNetworkScreen\NeuralNetworkScreen\NeuralNetworkScreen.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Z7 /clr /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug CLI-mode\\" /Fd"Debug CLI-mode\vc120.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib CGenAPI.cpp GrabScreenshot.cpp main.cpp
+         CGenAPI.cpp
+     1>CGenAPI.cpp(5): error C2511: 'CGenAPI::CGenAPI(void)' : overloaded member function not found in 'CGenAPI'
+                 e:\documents\github\buttonandscreenwatch\neuralnetworkscreen\neuralnetworkscreen\CGenAPI.h(16) : see declaration of 'CGenAPI'
+         GrabScreenshot.cpp
+     1>e:\documents\github\buttonandscreenwatch\neuralnetworkscreen\neuralnetworkscreen\GrabScreenshot.h(12): error C2143: syntax error : missing ';' before '.'
+     1>e:\documents\github\buttonandscreenwatch\neuralnetworkscreen\neuralnetworkscreen\GrabScreenshot.h(12): error C2059: syntax error : '.'
+     1>GrabScreenshot.cpp(14): error C2750: 'System::Diagnostics::Process' : cannot use 'new' on the reference type; use 'gcnew' instead
+     1>GrabScreenshot.cpp(14): error C3673: 'System::Diagnostics::Process' : class does not have a copy-constructor
+     1>GrabScreenshot.cpp(15): error C2228: left of '.FileName' must have class/struct/union
+                 type is 'System::Diagnostics::ProcessStartInfo ^'
+                 did you intend to use '->' instead?
+     1>GrabScreenshot.cpp(17): error C2146: syntax error : missing ';' before identifier 'proc'
+     1>GrabScreenshot.cpp(19): error C3861: 'SetForegroundWindow': identifier not found
+     1>GrabScreenshot.cpp(21): error C2512: 'RECT' : no appropriate default constructor available
+     1>GrabScreenshot.cpp(23): warning C4832: token '.' is illegal after UDT 'System::IntPtr'
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\mscorlib.dll : see declaration of 'System::IntPtr'
+     1>GrabScreenshot.cpp(23): error C2275: 'System::IntPtr' : illegal use of this type as an expression
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\mscorlib.dll : see declaration of 'System::IntPtr'
+     1>GrabScreenshot.cpp(23): error C2228: left of '.Zero' must have class/struct/union
+     1>GrabScreenshot.cpp(26): error C2065: 'out' : undeclared identifier
+     1>GrabScreenshot.cpp(26): error C2146: syntax error : missing ')' before identifier 'srcRect'
+     1>GrabScreenshot.cpp(26): error C3861: 'GetWindowRect': identifier not found
+     1>GrabScreenshot.cpp(26): error C2059: syntax error : ')'
+     1>GrabScreenshot.cpp(27): error C2143: syntax error : missing ';' before '{'
+     1>GrabScreenshot.cpp(31): error C2065: 'Image' : undeclared identifier
+     1>GrabScreenshot.cpp(31): error C2065: 'bmp' : undeclared identifier
+     1>GrabScreenshot.cpp(31): error C2061: syntax error : identifier 'Image'
+     1>GrabScreenshot.cpp(32): error C2065: 'Graphics' : undeclared identifier
+     1>GrabScreenshot.cpp(36): error C2065: 'screenG' : undeclared identifier
+     1>GrabScreenshot.cpp(36): error C2228: left of '.CopyFromScreen' must have class/struct/union
+                 type is 'unknown-type'
+     1>GrabScreenshot.cpp(37): error C2061: syntax error : identifier 'Size'
+     1>GrabScreenshot.cpp(38): error C2065: 'CopyPixelOperation' : undeclared identifier
+     1>GrabScreenshot.cpp(38): error C2228: left of '.SourceCopy' must have class/struct/union
+                 type is 'unknown-type'
+     1>GrabScreenshot.cpp(38): error C2143: syntax error : missing ';' before ')'
+     1>GrabScreenshot.cpp(40): error C2065: 'bmp' : undeclared identifier
+     1>GrabScreenshot.cpp(40): error C2228: left of '.Save' must have class/struct/union
+                 type is 'unknown-type'
+     1>GrabScreenshot.cpp(40): error C2065: 'ImageFormat' : undeclared identifier
+     1>GrabScreenshot.cpp(40): error C2228: left of '.Jpeg' must have class/struct/union
+                 type is 'unknown-type'
+     1>GrabScreenshot.cpp(42): error C2725: 'System::Exception' : unable to throw or catch a managed object by value or reference
+     1>GrabScreenshot.cpp(42): error C2316: 'System::Exception' : cannot be caught as the destructor and/or copy constructor are inaccessible
+     1>GrabScreenshot.cpp(44): error C2065: 'MessageBox' : undeclared identifier
+     1>GrabScreenshot.cpp(44): error C2228: left of '.Show' must have class/struct/union
+                 type is 'unknown-type'
+     1>GrabScreenshot.cpp(48): error C2065: 'screenG' : undeclared identifier
+     1>GrabScreenshot.cpp(48): error C2228: left of '.Dispose' must have class/struct/union
+                 type is 'unknown-type'
+     1>GrabScreenshot.cpp(49): error C2065: 'bmp' : undeclared identifier
+     1>GrabScreenshot.cpp(49): error C2228: left of '.Dispose' must have class/struct/union
+                 type is 'unknown-type'
+         main.cpp
+     1>e:\documents\github\buttonandscreenwatch\neuralnetworkscreen\neuralnetworkscreen\GrabScreenshot.h(12): error C2143: syntax error : missing ';' before '.'
+     1>e:\documents\github\buttonandscreenwatch\neuralnetworkscreen\neuralnetworkscreen\GrabScreenshot.h(12): error C2059: syntax error : '.'
+     1>e:\documents\github\buttonandscreenwatch\neuralnetworkscreen\neuralnetworkscreen\main.h(8): error C2871: 'cv' : a namespace with this name does not exist
+     1>main.cpp(14): error C2065: 'GrabScreenshot' : undeclared identifier
+     1>main.cpp(14): error C2228: left of '.retrieveWindow' must have class/struct/union
+                 type is 'unknown-type'
+         Generating Code...
+     1>Done Building Project "E:\Documents\GitHub\ButtonAndScreenWatch\NeuralNetworkScreen\NeuralNetworkScreen\NeuralNetworkScreen.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.97

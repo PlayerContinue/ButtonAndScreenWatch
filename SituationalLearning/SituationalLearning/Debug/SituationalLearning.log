@@ -1,0 +1,21 @@
+﻿Build started 6/9/2015 4:48:02 PM.
+     1>Project "E:\Documents\GitHub\ButtonAndScreenWatch\SituationalLearning\SituationalLearning\SituationalLearning.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib ..\..\NeuralNetworkScreen\SituationalLearning\GrabScreenshot.cpp ..\..\NeuralNetworkScreen\SituationalLearning\main.cpp
+         GrabScreenshot.cpp
+         main.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\David Greenberg\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documents\GitHub\ButtonAndScreenWatch\SituationalLearning\Debug\SituationalLearning.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Documents\GitHub\ButtonAndScreenWatch\SituationalLearning\Debug\SituationalLearning.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\GrabScreenshot.obj
+         Debug\main.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>GrabScreenshot.obj : error LNK2028: unresolved token (0A0003ED) "extern "C" int __stdcall GetWindowRect(struct HWND__ *,struct tagRECT *)" (?GetWindowRect@@$$J18YGHPAUHWND__@@PAUtagRECT@@@Z) referenced in function "public: static void __clrcall GrabScreenshot::screenData(struct HWND__ *)" (?screenData@GrabScreenshot@@$$FSMXPAUHWND__@@@Z)
+     1>GrabScreenshot.obj : error LNK2019: unresolved external symbol "extern "C" int __stdcall GetWindowRect(struct HWND__ *,struct tagRECT *)" (?GetWindowRect@@$$J18YGHPAUHWND__@@PAUtagRECT@@@Z) referenced in function "public: static void __clrcall GrabScreenshot::screenData(struct HWND__ *)" (?screenData@GrabScreenshot@@$$FSMXPAUHWND__@@@Z)
+     1>E:\Documents\GitHub\ButtonAndScreenWatch\SituationalLearning\Debug\SituationalLearning.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "E:\Documents\GitHub\ButtonAndScreenWatch\SituationalLearning\SituationalLearning\SituationalLearning.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.27

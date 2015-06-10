@@ -1,0 +1,14 @@
+﻿Build started 6/9/2015 4:43:36 PM.
+     1>Project "E:\Documents\GitHub\ButtonAndScreenWatch\NeuralNetworkScreen\SituationalLearning\SituationalLearning.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documents\GitHub\ButtonAndScreenWatch\NeuralNetworkScreen\Debug\SituationalLearning.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Documents\GitHub\ButtonAndScreenWatch\NeuralNetworkScreen\Debug\SituationalLearning.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\GrabScreenshot.obj
+         Debug\main.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>GrabScreenshot.obj : error LNK2028: unresolved token (0A0003ED) "extern "C" int __stdcall GetWindowRect(struct HWND__ *,struct tagRECT *)" (?GetWindowRect@@$$J18YGHPAUHWND__@@PAUtagRECT@@@Z) referenced in function "public: static void __clrcall GrabScreenshot::screenData(struct HWND__ *)" (?screenData@GrabScreenshot@@$$FSMXPAUHWND__@@@Z)
+     1>GrabScreenshot.obj : error LNK2019: unresolved external symbol "extern "C" int __stdcall GetWindowRect(struct HWND__ *,struct tagRECT *)" (?GetWindowRect@@$$J18YGHPAUHWND__@@PAUtagRECT@@@Z) referenced in function "public: static void __clrcall GrabScreenshot::screenData(struct HWND__ *)" (?screenData@GrabScreenshot@@$$FSMXPAUHWND__@@@Z)
+     1>E:\Documents\GitHub\ButtonAndScreenWatch\NeuralNetworkScreen\Debug\SituationalLearning.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "E:\Documents\GitHub\ButtonAndScreenWatch\NeuralNetworkScreen\SituationalLearning\SituationalLearning.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.49
